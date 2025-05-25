@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Dharm Thummar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="loading">
+    <!-- Progress Bar -->
+    <div class="progress-bar"></div>
+    
+    <!-- Loader -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Creativity Takes Time— Just a sec!..</div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-brand">@<span class="accent" style="color: #FF0000;">.</span></div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#work" class="nav-link">Work</a>
+            <a href="#achievements" class="nav-link">Achievements</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-controls">
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="menu-content">
+            <div class="menu-links">
+                <a href="#home" class="menu-link">Home</a>
+                <a href="#about" class="menu-link">About</a>
+                <a href="#work" class="menu-link">Work</a>
+                <a href="#achievements" class="menu-link">Achievements</a>
+                <a href="#contact" class="menu-link">Contact</a>
+            </div>
+            <div class="menu-footer">
+                <div class="social-links">
+                    <a href="https://github.com/dharmthummar" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/dharmthummar" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/dharm1602" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="glitch" data-text="DHARM THUMMAR">DHARM THUMMAR</h1>
+                    <p class="hero-subtitle">B.Tech CSE | MBA Finance</p>
+                    <div class="hero-cta">
+                        <a href="#work" class="primary-btn">View Work</a>
+                        <a href="#contact" class="secondary-btn">Get in Touch</a>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="cv (1).pdf" class="secondary-btn" download style="display: flex; align-items: center; gap: 1rem;">
+                            <span>Download Resume </span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="geometric-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="assets\images\profile-cutout.webp" alt="Profile Image" class="profile-cutout">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="scroll-text">Scroll to Explore</div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="section-header">
+                <span class="section-tag">Introduction</span>
+                <h2 class="section-title">About me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image-container">
+                    <img src="assets/images/profile.webp" alt="Profile" class="about-image">
+                </div>
+                <div class="about-info">
+                    <p class="about-description">
+                        Hello, I'm Dharm Thummar, a Computer Science and Finance student at Nirma University. I combine my expertise in AI/ML, web development, and cloud computing with financial knowledge to build innovative data-driven solutions that bridge the gap between technology and business."
+                    </p>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Technical Skills</h3>
+                            <p>Python, Java, C/C++, JavaScript, Solidity, HTML5, CSS3, Web3</p>
+                        </div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>Education</h3>
+                            <p>Integrated B.Tech (CSE) + MBA, Nirma University (2022-2027)</p>
+                        </div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <h3>Core Competencies</h3>
+                            <p>Algorithm Design, System Architecture, Cloud Computing, AI/ML Implementation, Cybersecurity</p>
+                        </div>
+                    </div>
+
+                    <div class="tech-icons">
+                        <a href="https://aws.amazon.com" class="tech-icon" target="_blank" title="Amazon Web Services">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS">
+                        </a>
+                        <a href="https://colab.research.google.com" class="tech-icon" target="_blank" title="Google Colab">
+                            <img src="https://colab.research.google.com/img/colab_favicon_256px.png" alt="Google Colab">
+                        </a>
+                        <a href="https://remix.ethereum.org" class="tech-icon" target="_blank" title="Remix IDE">
+                            <img src="https://raw.githubusercontent.com/ethereum/remix-project/master/apps/remix-ide/src/assets/img/icon.png" alt="Remix">
+                        </a>
+                        <a href="https://code.visualstudio.com" class="tech-icon" target="_blank" title="Visual Studio Code">
+                            <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code">
+                        </a>
+                        <a href="https://www.canva.com" class="tech-icon" target="_blank" title="Canva">
+                            <img src="https://static.canva.com/web/images/12487a1e0770d29351bd4ce4f87ec8fe.svg" alt="Canva">
+                        </a>
+                        <a href="https://www.figma.com" class="tech-icon" target="_blank" title="Figma">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma">
+                        </a>
+                        <a href="https://claude.ai" class="tech-icon" target="_blank" title="Claude AI">
+                            <img src="https://claude.ai/favicon.ico" alt="Claude">
+                        </a>
+                        <a href="https://getbootstrap.com" class="tech-icon" target="_blank" title="Bootstrap">
+                            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap">
+                        </a>
+                        <a href="https://www.python.org" class="tech-icon" target="_blank" title="Python">
+                            <img src="https://www.python.org/static/community_logos/python-logo-generic.svg" alt="Python">
+                        </a>
+                        <a href="https://openai.com/chatgpt" class="tech-icon" target="_blank" title="ChatGPT">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT">
+                        </a>
+                        <a href="https://flutter.dev" class="tech-icon" target="_blank" title="Flutter">
+                            <img src="https://storage.googleapis.com/cms-storage-bucket/4fd0db61df0567c0f352.png" alt="Flutter">
+                        </a>
+                        <a href="https://developer.android.com/studio" class="tech-icon" target="_blank" title="Android Studio">
+                            <img src="https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png" alt="Android Studio">
+                        </a>
+                        <a href="https://www.overleaf.com" class="tech-icon" target="_blank" title="Overleaf">
+                            <img src="https://cdn.overleaf.com/img/ol-brand/overleaf_og_logo.png" alt="Overleaf">
+                        </a>
+                        <a href="https://www.capcut.com" class="tech-icon" target="_blank" title="CapCut">
+                            <img src="https://th.bing.com/th/id/ODLS.feae7988-914f-497d-90bc-cc37d44b8a70?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2.png" alt="CapCut">
+                        </a>
+                        <a href="https://www.mysql.com" class="tech-icon" target="_blank" title="SQL">
+                            <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="SQL">
+                        </a>
+                        <a href="https://github.com/dharmthummar" class="tech-icon" target="_blank" title="GitHub">
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+                        </a>
+                        <a href="https://www.kali.org" class="tech-icon" target="_blank" title="Kali Linux">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg" alt="Kali Linux">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="work-section">
+            <!-- Floating Background Elements -->
+            <div class="floating-elements">
+                <div class="floating-bubble"></div>
+                <div class="floating-bubble"></div>
+                <div class="floating-bubble"></div>
+                <div class="floating-bubble"></div>
+                <div class="floating-bubble"></div>
+                
+                <div class="floating-obj obj1"></div>
+                <div class="floating-obj obj2"></div>
+                <div class="floating-obj obj3"></div>
+            </div>
+
+            <div class="section-header">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="work-grid apple-watch-grid">
+                <!-- Project bubbles will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements-section">
+            <div class="section-header">
+                <span class="section-tag">My Accomplishment</span>
+                <h2 class="section-title">Achievements</h2>
+                <p class="section-description">Here are some of my proudest achievements, reflecting my dedication, skills, and passion for continuous learning and growth.</p>
+            </div>
+            <div class="achievements-grid">
+                <!-- Achievement items will be populated by JavaScript -->
+            </div>
+            <div class="show-more-container">
+                <button class="show-more-btn">Show More <i class="fas fa-chevron-down"></i></button>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>dthummar17@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Surat, Gujarat, India</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+91 91066 26151</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/dharmthummar" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/dharmthummar" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/dharm1602" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" onsubmit="return submitForm(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div id="formStatus" style="margin-top: 1rem; text-align: center;"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content" style="display: flex; justify-content: center; align-items: center; min-height: 1px;">
+            <div class="footer-text" style="text-align: center;">
+                <p>Made with <i class="fas fa-heart" style="color: var(--primary);"></i> by Dharm Thummar</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+    async function submitForm(e) {
+        e.preventDefault();
+        
+        const form = document.getElementById('contactForm');
+        const status = document.getElementById('formStatus');
+        const submitBtn = form.querySelector('.submit-btn');
+        
+        // Disable the submit button and show loading state
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<span>Sending...</span>';
+        status.textContent = '';
+
+        try {
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwDHhlrolk4MEIOovsN6mOcLdyfCuugVtFu_iSvBfrIdB1OwexxEj1vTn1XXjfAsSpXVQ/exec';
+            
+            const formData = new FormData(form);
+            const searchParams = new URLSearchParams();
+            
+            for (const [key, value] of formData) {
+                searchParams.append(key, value);
+            }
+
+            const response = await fetch(scriptURL, {
+                method: 'POST',
+                body: searchParams,
+                mode: 'no-cors'
+            });
+
+            // Show success message
+            status.textContent = 'Message sent successfully!';
+            status.style.color = 'var(--primary)';
+            form.reset();
+        } catch (error) {
+            // Show error message
+            status.textContent = 'Oops! Something went wrong. Please try again.';
+            status.style.color = 'var(--secondary)';
+        } finally {
+            // Re-enable the submit button and restore original text
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = '<span>Send Message</span><i class="fas fa-paper-plane"></i>';
+        }
+
+        return false;
+    }
+
+
+    </script>
+
+</body>
+</html> 
